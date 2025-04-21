@@ -1,36 +1,116 @@
-<!-- ABOUT -->
-<section id="about" class="section" data-aos="fade-up">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>
-      I’m a graduate student in Computer and Information Sciences at Saint Louis University with industry experience in software development, product management, and CRM/ERP systems. I’ve led teams to deliver scalable, user-centric business platforms, integrated Salesforce and SAP systems, and developed internal tools to improve operations. My goal is to bridge technology and business with impactful solutions.
-    </p>
-  </div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Pooja Vilekha Burujula | Resume</title>
 
-<!-- RESEARCH -->
-<section id="research" class="section alt" data-aos="fade-up">
-  <div class="container">
-    <h2>Research Interests</h2>
-    <ul class="research-list">
-      <li>Business Systems Automation and CRM Optimization</li>
-      <li>Human-Centered Product Design for Internal Tools</li>
-      <li>Mixed Reality and Assistive Tech for Accessibility</li>
-    </ul>
-  </div>
-</section>
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-p1Cm6U6G2kXspgM+6nYg2t9YzU0Bs2V1xGMIOyCRqkLkY6E8Fb8CJECdT5lN3yMcu/J2sSm3H5Vq5yQvuJ4RCw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-<!-- EDUCATION -->
-<section id="education" class="section" data-aos="fade-up">
-  <div class="container">
-    <h2>Education</h2>
-    <div class="edu-item">
-      <h3>Master of Science, Computer and Information Sciences</h3>
-      <p>Saint Louis University, MO • Aug 2023 – May 2025</p>
+<body data-theme="light">
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#hero" class="logo">CPB</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
     </div>
-    <div class="edu-item">
-      <h3>Bachelor of Engineering, Electronics and Communication</h3>
-      <p>Visvesvaraya Technological University, India • Aug 2021</p>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="container hero-content" data-aos="fade-down">
+      <h1>Pooja Vilekha Burujula</h1>
+      <p class="contact-line">
+        <i class="fas fa-map-marker-alt"></i> Saint Louis, MO | 
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:poojavilekha.burujula@slu.edu">poojavilekha.burujula@slu.edu</a> | 
+        <a href="https://linkedin.com/in/pooja-vilekha-burujula-ba78b01a3" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </p>
     </div>
-  </div>
-</section>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Graduate student with experience in Software Development, Product Management, CRM, ERP systems, and Business Applications.
+        Skilled in coordinating interdisciplinary teams to design and implement solutions to increase productivity and automate procedures.
+        Proven ability to manage projects and teams, achieving project milestones of deliverables with a focus on quality and innovation.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Research Interests</h2>
+      <ul class="research-list">
+        <li>Software Development and Optimization</li>
+        <li>CRM and ERP System Integrations</li>
+        <li>AI Project Management and Market Research</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <h3>Master of Science, Computer &amp; Information Sciences</h3>
+        <p>Saint Louis University, MO &bull; May 2025</p>
+      </div>
+      <div class="edu-item">
+        <h3>Bachelor of Engineering, Electronics and Communication</h3>
+        <p>Visvesvaraya Technological University, Bangalore, India &bull; Aug 2021</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-bar" data-aos="fade-right" data-level="90%">
+          <i class="fab fa-python"></i>
+          <div class="bar-wrap">
+            <span>Python</span>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right" data-aos-delay="100" data-level="85%">
+          <i class="fab fa-java"></i>
+          <div class="bar-wrap">
+            <span>Java</span>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right" data-aos-delay="200" data-level="80%">
+          <i class="fab fa-salesforce"></i>
+          <div class="bar-wrap">
+            <span>Salesforce (Admin &amp; Developer)</span>
+            <
